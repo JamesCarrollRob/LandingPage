@@ -21,13 +21,42 @@
 
 }
 
-.header{
+.hero-main{
 
-    color: aliceblue;
-    background-color: #1f2937;
-    padding: 2em;
+    color: #F9FAF8;
+font-size: 48px;
+margin-bottom: -15px;
 }
 
+.hero-left {
+    margin-left: 150px;
+    margin-right: 50px;
+    width: 50%;
+  }
+
+  .hero-right {
+    margin-right: 150px;
+    width: 50%;
+  }
+
+  .placeholder-img {
+    background-color: rgba(128, 128, 128, 0.324);
+    color: white;
+    width: 400px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.section-1 {
+    background-color: #1F2937;
+padding: 50px 0;
+display: flex;
+align-items: center;
+
+}
 .header-link {
     display: flex;
     margin-left: auto;
