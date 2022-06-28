@@ -70,9 +70,28 @@ align-items: center;
     font-family: 'Roboto', arial;
   }
 
-/* a {
-    color:aliceblue;
-} */
+.section-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  /* align-items: center; */
+}
+
+.image-card {
+  width: 150px;
+  height: 200px;
+  border: solid blue 2px;
+  border-radius: 25px;
+
+
+}
 
 button {
     background-color: #3882f6;
