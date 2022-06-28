@@ -14,6 +14,10 @@
     
 }
 
+ .nav h2{
+  padding-left: 4em;
+}
+
 .item {
     display: flex;
     align-items: end;
@@ -79,8 +83,9 @@ align-items: center;
 .image-container {
   display: flex;
   justify-content: space-between;
-  padding-left: 2em;
-  padding-right: 2em;
+   
+  padding-left: 3em;
+  padding-right: 3em;
   /* align-items: center; */
 }
 
