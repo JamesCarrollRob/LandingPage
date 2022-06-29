@@ -99,6 +99,13 @@ align-items: center;
 
 }
 
+.image-card img{
+  width: 150px;
+  height: 200px;
+  border-radius: 25px;
+  object-fit: fill;
+}
+
 .card-info p {
   font-size: 15px;
   
@@ -164,8 +171,8 @@ h1 {
 .signup-content{
   background-color: #3882f6;
   color: #E5E7EB;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 3em;
+  border-radius: 10px;
 }
 
 .signup-button{
@@ -179,6 +186,7 @@ h1 {
   color: black;
   font-size: 18px;
   border: solid black;
+  border-radius: 10px;
 }
 
 .footer-container{
