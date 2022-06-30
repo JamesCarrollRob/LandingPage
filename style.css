@@ -32,6 +32,10 @@ font-size: 48px;
 margin-bottom: -15px;
 }
 
+.hero-main button{
+  padding: 0.5em;
+}
+
 .hero-left {
     margin-left: 150px;
     margin-right: 50px;
